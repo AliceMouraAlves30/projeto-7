@@ -1,0 +1,48 @@
+# Análise de Dados sobre Ética em Inteligência Artificial
+
+## Descrição
+
+Este projeto realiza uma análise exploratória de dados (EDA) de artigos relacionados à ética em Inteligência Artificial (IA). Utilizando um conjunto de dados obtido do arXiv, o objetivo é identificar tendências, explorar os principais tópicos e analisar sentimentos nos resumos dos artigos.
+
+## Estrutura do Projeto
+
+- `data_analysis.py`: Código principal que realiza a leitura dos dados, análise exploratória, visualização e análise de sentimentos.
+- `README.md`: Descrição do projeto, como configurar e usar.
+- `LICENSE`: Licença MIT.
+- `.gitignore`: Arquivos e pastas a serem ignorados pelo Git.
+
+## Funcionalidades
+
+1. **Análise Exploratória de Dados (EDA)**:
+    - Leitura e visualização das primeiras linhas do DataFrame.
+    - Informações e estatísticas descritivas do conjunto de dados.
+    - Identificação de tendências ao longo do tempo.
+    
+2. **Visualizações**:
+    - Número de publicações por ano.
+    - Principais tópicos em resumos de artigos.
+    - Distribuição de sentimentos dos resumos por ano e assunto.
+
+3. **Análise de Sentimentos**:
+    - Pré-processamento de texto.
+    - Análise de sentimentos utilizando a biblioteca TextBlob.
+    
+## Pré-requisitos
+
+- Python 3.x
+- Pandas
+- Matplotlib
+- Seaborn
+- NLTK
+- WordCloud
+- TextBlob
+- Scikit-learn
+
+## Instalação
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/seu_usuario/nome_do_repositorio.git
+cd nome_do_repositorio
+pip install -r requirements.txt
